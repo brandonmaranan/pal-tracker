@@ -1,9 +1,6 @@
 package io.pivotal.pal.tracker;
 
-<<<<<<< HEAD
-public class EnvController {
-}
-=======
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -43,4 +40,4 @@ public class EnvController {
         return env;
     }
 }
->>>>>>> upstream/master
+

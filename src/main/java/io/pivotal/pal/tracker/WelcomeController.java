@@ -1,19 +1,5 @@
 package io.pivotal.pal.tracker;
 
-<<<<<<< HEAD
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-
-@RestController
-public class WelcomeController {
-
-    @GetMapping("/")
-    public String sayHello() {
-        return "hello";
-    }
-}
-=======
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -35,4 +21,4 @@ public class WelcomeController {
         return this.message;
     }
 }
->>>>>>> upstream/master
+

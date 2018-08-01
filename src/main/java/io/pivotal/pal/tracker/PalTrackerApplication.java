@@ -1,9 +1,6 @@
 package io.pivotal.pal.tracker;
 
-<<<<<<< HEAD
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-=======
+
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
@@ -12,18 +9,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
->>>>>>> upstream/master
 
 @SpringBootApplication
 public class PalTrackerApplication {
 
-<<<<<<< HEAD
-        public static void main(String[] args){
 
-            SpringApplication.run(PalTrackerApplication.class, args);
-        }
-}
-=======
     public static void main(String[] args) {
         SpringApplication.run(PalTrackerApplication.class, args);
     }
@@ -45,4 +35,4 @@ public class PalTrackerApplication {
 
 
 }
->>>>>>> upstream/master
+
